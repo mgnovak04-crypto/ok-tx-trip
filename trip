@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mena → Oklahoma → Texas → Benton Road Trip</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: #0f1923; color: #e8e8e8; padding: 16px; max-width: 600px; margin: 0 auto; }
+  h1 { font-size: 22px; margin-bottom: 6px; color: #fff; }
+  .subtitle { color: #8899aa; font-size: 14px; margin-bottom: 24px; }
+  .leg { margin-bottom: 28px; }
+  .leg-header { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+  .leg-num { background: #2563eb; color: #fff; font-weight: 700; font-size: 13px; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .leg-title { font-size: 16px; font-weight: 600; color: #fff; }
+  .leg-meta { color: #6b7f8e; font-size: 13px; margin-left: 38px; margin-bottom: 10px; }
+  .route-btn { display: block; background: #1a73e8; color: #fff; text-decoration: none; padding: 12px 16px; border-radius: 10px; font-size: 15px; font-weight: 600; text-align: center; margin: 8px 0 14px 0; }
+  .route-btn:hover { background: #1557b0; }
+  .route-btn span { font-size: 18px; margin-right: 6px; }
+  .stops { margin-left: 14px; border-left: 2px solid #253545; padding-left: 20px; }
+  .stop { margin-bottom: 12px; position: relative; }
+  .stop::before { content: ''; position: absolute; left: -25px; top: 8px; width: 10px; height: 10px; border-radius: 50%; background: #253545; }
+  .stop.highlight::before { background: #f59e0b; }
+  .stop-name { font-size: 14px; font-weight: 600; color: #d1d9e0; }
+  .stop-tag { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-left: 6px; vertical-align: middle; }
+  .tag-scenic { background: #064e3b; color: #6ee7b7; }
+  .tag-him { background: #3b1f0b; color: #fbbf24; }
+  .tag-her { background: #4a1d6a; color: #c084fc; }
+  .tag-both { background: #1e3a5f; color: #7dd3fc; }
+  .tag-magnet { background: #7f1d1d; color: #fca5a5; }
+  .tag-food { background: #713f12; color: #fde68a; }
+  .tag-gift { background: #365314; color: #bef264; }
+  .tag-nature { background: #064e3b; color: #6ee7b7; }
+  .stop-desc { font-size: 12px; color: #6b7f8e; margin-top: 2px; line-height: 1.4; }
+  .stop-link { font-size: 12px; color: #60a5fa; text-decoration: none; }
+  .divider { border: none; border-top: 1px solid #1e2d3d; margin: 20px 0; }
+  .note { background: #1a2733; padding: 12px; border-radius: 8px; font-size: 13px; color: #8899aa; margin-top: 20px; line-height: 1.5; }
+  .note strong { color: #c8d6e0; }
+  .checklist { margin-top: 20px; }
+  .checklist-title { font-size: 15px; font-weight: 600; color: #fff; margin-bottom: 8px; }
+  .check-item { font-size: 13px; color: #8899aa; padding: 4px 0; }
+  .check-item span { margin-right: 6px; }
+</style>
+</head>
+<body>
+
+<h1>🗺️ Mena → OK → TX → Benton</h1>
+<p class="subtitle">3 states · ~4.5 hrs driving · 20+ stops</p>
+
+<!-- LEG 1 -->
+<div class="leg">
+  <div class="leg-header">
+    <div class="leg-num">1</div>
+    <div class="leg-title">Mena → Hochatown, OK</div>
+  </div>
+  <div class="leg-meta">1hr 43min driving · 87 miles · Ouachita Mountains</div>
+
+  <a class="route-btn" href="https://www.google.com/maps/dir/315+Polk+County+Rd+684,+Mena,+AR+71953/TJ's+Country+Store,+101+E+Hornbeck+Ave,+Hatfield,+AR/Spillway+Overlook,+Broken+Bow,+OK/Hochatown+Distilling+Company,+41+N+Lukfata+Trl+Rd,+Broken+Bow,+OK/Janet's+Treasure+Chest,+Broken+Bow,+OK/The+Forest+Store+Hochatown,+6427+N+US+Hwy+259,+Broken+Bow,+OK/Loblolly+Chocolates,+6427+N+US+Hwy+259,+Broken+Bow,+OK/Hochatime,+9231+US-259,+Hochatown,+OK" target="_blank">
+    <span>🧭</span> Open Full Route in Google Maps
+  </a>
+
+  <div class="stops">
+    <div class="stop">
+      <div class="stop-name">T.J.'s Country Store <span class="stop-tag tag-food">FOOD</span></div>
+      <div class="stop-desc">Mom-and-pop gem in Hatfield. Famous homemade pies and breakfast. Right on US-59.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJcfaR6Gcqy4cRQ-MWoaEZU58" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop highlight">
+      <div class="stop-name">⭐ Cossatot Falls <span class="stop-tag tag-nature">DETOUR 25min</span></div>
+      <div class="stop-desc">"Skull Crusher" river — dramatic rocky canyon with cascading rapids. Easy 0.9mi hike. Access via gravel forest roads off AR-4/Hwy 278.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJyTNkbd_RNIYRYxr9hfGTwqg" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">Spillway Overlook <span class="stop-tag tag-scenic">SCENIC</span></div>
+      <div class="stop-desc">Broken Bow Lake dam overlook. Crystal-clear water, pine mountains. 5 min photo stop.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJvYO-JMo4NYYRMTQMmzUVAKs" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">Hochatown Distilling Co <span class="stop-tag tag-him">🥃 HIM</span></div>
+      <div class="stop-desc">4.9★ bourbon distillery with hidden speakeasy. Ask for tour guide Rod. Book ahead!</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJ99d5UBxHNYYRCs-KcQiRH5E" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop highlight">
+      <div class="stop-name">Janet's Treasure Chest <span class="stop-tag tag-magnet">🧲 OK MAGNET</span></div>
+      <div class="stop-desc">Reviews mention beautiful magnets and handmade crafts. Eclectic souvenirs. Open 9-5 daily.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJ7-XSU7hANYYRxeW0jb-_B4A" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">The Forest Store <span class="stop-tag tag-her">🎁 HER</span></div>
+      <div class="stop-desc">4.9★ upscale nature goods. Candles, regional art, crochet kits, live-edge wood. ⚠️ Closed Tuesdays.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJpyTbr49BNYYRasOcNfgqhsA" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">Hochatime <span class="stop-tag tag-both">👕 OK LIFESTYLE BRAND</span></div>
+      <div class="stop-desc">4.7★ — Oklahoma's own Hochatown lifestyle brand. Locally designed tees, hoodies, hats, and accessories. Premium quality, not generic tourist stuff. Great $2 sticker collection too. "Relax, you're livin' on Hochatime." Open 9-5 daily.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJjebrwqxHNYYR50N1tpROu9A" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">Loblolly Chocolates <span class="stop-tag tag-both">🍫 BOTH</span></div>
+      <div class="stop-desc">4.9★, 279 reviews — Handmade artisan chocolates in the HochaBow complex (next to Forest Store). Wild truffle flavors like cucumber-lemongrass, chocolate-covered hibiscus. Caramel rice crispy treats are legendary. Open daily 10AM-9PM.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJpU_iXC1HNYYRLQVYmwSQEMg" target="_blank">📍 Open in Maps</a>
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- LEG 2 -->
+<div class="leg">
+  <div class="leg-header">
+    <div class="leg-num">2</div>
+    <div class="leg-title">Hochatown → Jefferson, TX</div>
+  </div>
+  <div class="leg-meta">1hr 58min driving · 111 miles · East Texas piney woods & bayou</div>
+
+  <a class="route-btn" href="https://www.google.com/maps/dir/Hochatime,+9231+US-259,+Hochatown,+OK/Olde+1852+Market+Company,+124+S+Main+St,+Linden,+TX/Lonesome+Dove+Drive+Thru+Safari,+1782+US-59,+Jefferson,+TX/Jefferson+General+Store,+113+E+Austin+St,+Jefferson,+TX/Texas+Treasures,+214+N+Polk+St,+Jefferson,+TX/Made+in+the+Shade+Boutique,+118+E+Henderson+St,+Jefferson,+TX/Foodie+Tasting+Room,+114+W+Lafayette+St,+Jefferson,+TX/Auntie+Skinner's+Riverboat+Club,+107+W+Austin+St,+Jefferson,+TX/Caddo+Lake+State+Park,+245+Park+Rd+2,+Karnack,+TX" target="_blank">
+    <span>🧭</span> Open Full Route in Google Maps
+  </a>
+
+  <div class="stops">
+    <div class="stop">
+      <div class="stop-name">Olde 1852 Market Co <span class="stop-tag tag-her">🎁 HER</span></div>
+      <div class="stop-desc">5.0★ charming gift shop in Linden. Local artisan goods. Owner JoAnn is lovely. On your route.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJbQ5S4Q4rNIYROVijJ0JL1Uk" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">Lonesome Dove Safari <span class="stop-tag tag-both">🐃 BOTH</span></div>
+      <div class="stop-desc">Drive-through exotic safari — zebras, camels, buffalo, ostriches. 45-60 min. On US-59 north of Jefferson.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJsVcfNUmJNoYR2LQNei-17WQ" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">Jefferson General Store <span class="stop-tag tag-both">⭐ BOTH</span></div>
+      <div class="stop-desc">4.8★, 1,800+ reviews. THE Jefferson landmark. Root beer floats, vintage candy, gifts.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJibet2xKJNoYRL61Z_01wNeU" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop highlight">
+      <div class="stop-name">Texas Treasures <span class="stop-tag tag-magnet">🧲 TX MAGNET</span></div>
+      <div class="stop-desc">Texas-themed trinkets, jewelry, collectibles. Right on N Polk St. Her Texas fridge magnet stop!</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJwXSIkxKJNoYR9fKI11NXVB4" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">GG's Antiques <span class="stop-tag tag-her">🎁 HER</span></div>
+      <div class="stop-desc">5.0★ in old nursing home. Local artisan crafts, ceramics, vintage. Across from Texas Treasures.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJAQBEjBKJNoYReRaIDU3iJpI" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">Made in the Shade <span class="stop-tag tag-her">🎁 HER</span></div>
+      <div class="stop-desc">4.8★ handmade decor, jewelry, six cats, gem mining ($10+). Most unique shop in Jefferson.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJdTigGBOJNoYRm10zJS7hz2k" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">Yesteryear Gift Shop <span class="stop-tag tag-her">🎁 HER</span></div>
+      <div class="stop-desc">40+ years in business. Multiple themed rooms. Jewelry, decor, Christmas year-round.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJtbSU2hKJNoYR5AZ2Ry7M37A" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">Foodie Tasting Room <span class="stop-tag tag-gift">🎁 PARENTS</span></div>
+      <div class="stop-desc">Artisan balsamic, olive oils, jams, coffee. Taste before you buy. Great gift basket for Benton. ⚠️ Closed Mon-Tue.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJBS6RUBuJNoYRZ_tEjcc0AAA" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">Auntie Skinner's <span class="stop-tag tag-him">🍺 HIM</span></div>
+      <div class="stop-desc">Historic bar & grill on the shopping strip. Full bar, good food, live music. ⚠️ CLOSED TUESDAYS.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJEQS72hKJNoYRqqx9OF5z9gY" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop highlight">
+      <div class="stop-name">⭐ Caddo Lake State Park <span class="stop-tag tag-nature">DETOUR 15min</span></div>
+      <div class="stop-desc">Surreal bald cypress bayou. Spanish moss, mirror-still water. Boardwalk or canoe ($20/day). $4/person. THE wow stop.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJ4RDHJA-TNoYR-0ucS97gGkw" target="_blank">📍 Open in Maps</a>
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- LEG 3 -->
+<div class="leg">
+  <div class="leg-header">
+    <div class="leg-num">3</div>
+    <div class="leg-title">Jefferson → Benton, LA</div>
+  </div>
+  <div class="leg-meta">1hr 13min driving · 60 miles · Piney woods to home</div>
+
+  <a class="route-btn" href="https://www.google.com/maps/dir/Jefferson,+TX+75657/The+Seventh+Tap+Eastbank,+525+Barksdale+Blvd,+Bossier+City,+LA/127+Oak+Leaf+TR,+Benton,+LA+71006" target="_blank">
+    <span>🧭</span> Open Full Route in Google Maps
+  </a>
+
+  <div class="stops">
+    <div class="stop">
+      <div class="stop-name">The Seventh Tap Eastbank <span class="stop-tag tag-him">🍺 HIM</span></div>
+      <div class="stop-desc">4.8★ — Amazing craft beer, smash burgers & fries. IPAs, sours, stouts all outstanding. On Barksdale Blvd in Bossier City. ⚠️ Closed Mondays.</div>
+      <a class="stop-link" href="https://www.google.com/maps/place/?q=place_id:ChIJq1mlTKfJNoYR6k5vCYdgJdI" target="_blank">📍 Open in Maps</a>
+    </div>
+    <div class="stop">
+      <div class="stop-name">Home — 127 Oak Leaf TR 🏠</div>
+      <div class="stop-desc">~20 min from Seventh Tap. Arrive with Oklahoma and Texas magnets, bourbon, artisan food gifts, and stories from the road.</div>
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="note">
+  <strong>⚠️ Day-of-week closures:</strong><br>
+  • Auntie Skinner's — closed Tuesdays<br>
+  • Foodie Tasting Room — closed Mon & Tue<br>
+  • The Forest Store — closed Tuesdays<br>
+  • GG's Antiques — closed Sundays<br>
+  • Olde 1852 Market — closed Sundays<br>
+  • Yesteryear Gift Shop — closed Mondays<br><br>
+  <strong>💡 Tip:</strong> Open each "Full Route" link on your phone and it'll launch Google Maps with turn-by-turn navigation through all the stops. You can also tap individual "📍 Open in Maps" links to save/star places.
+</div>
+
+<div class="checklist">
+  <div class="checklist-title">🎯 Don't Forget</div>
+  <div class="check-item"><span>🧲</span> Oklahoma magnet → Janet's Treasure Chest</div>
+  <div class="check-item"><span>🧲</span> Texas magnet → Texas Treasures, Jefferson</div>
+  <div class="check-item"><span>🥃</span> Bourbon tasting → Hochatown Distilling (book ahead!)</div>
+  <div class="check-item"><span>📷</span> Best photo ops → Caddo Lake, Lovers Leap, Spillway</div>
+  <div class="check-item"><span>🎁</span> Gift for parents → Foodie Tasting Room, Jefferson</div>
+</div>
+
+</body>
+</html>
